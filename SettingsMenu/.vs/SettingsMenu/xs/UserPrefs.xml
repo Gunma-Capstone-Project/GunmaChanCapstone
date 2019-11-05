@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{1B08D8F6-1FD7-808E-DC98-DA98650D905F}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ChangeColorSeasonally.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ChangeColorToggle.cs">
     <Files>
-      <File FileName="Assets/Scripts/ChangeColorSeasonally.cs" Line="29" Column="1" />
+      <File FileName="Assets/Scripts/ChangeColorToggle.cs" Line="40" Column="40" />
+      <File FileName="Assets/Scripts/ColorChangeSounds.cs" Line="24" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -9,7 +10,7 @@
           <Node name="SettingsMenu" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="ChangeColorSeasonally.cs" selected="True" />
+                <Node name="ChangeColorToggle.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -19,7 +20,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="bffb1b3c-5692-4b1d-abdf-1b267a4f9d0e" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="92af989e-127b-4c20-a99c-a5f1c8bda50b" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

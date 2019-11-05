@@ -21,14 +21,14 @@ public class ColorChangeSounds : MonoBehaviour
     void ChangeColorForToggles()
     {
         //Loading On/Off toggles for different seasons from assets
-        Sprite onButtonSpring = (Sprite)AssetDatabase.LoadAssetAtPath("Assets/Resources/Buttons/OnButtonSpring.jpg", typeof(Sprite));
-        Sprite offButtonSpring = (Sprite)AssetDatabase.LoadAssetAtPath("Assets/Resources/Buttons/OffButtonSpring.jpg", typeof(Sprite));
-        Sprite onButtonSummer = (Sprite)AssetDatabase.LoadAssetAtPath("Assets/Resources/Buttons/OnButtonSummer.jpg", typeof(Sprite));
-        Sprite offButtonSummer = (Sprite)AssetDatabase.LoadAssetAtPath("Assets/Resources/Buttons/OffButtonSummer.jpg", typeof(Sprite));
-        Sprite onButtonFall = (Sprite)AssetDatabase.LoadAssetAtPath("Assets/Resources/Buttons/OnButtonFall.jpg", typeof(Sprite));
-        Sprite offButtonFall = (Sprite)AssetDatabase.LoadAssetAtPath("Assets/Resources/Buttons/OffButtonFall.jpg", typeof(Sprite));
-        Sprite onButtonWinter = (Sprite)AssetDatabase.LoadAssetAtPath("Assets/Resources/Buttons/OnButtonWinter.jpg", typeof(Sprite));
-        Sprite offButtonWinter = (Sprite)AssetDatabase.LoadAssetAtPath("Assets/Resources/Buttons/OffButtonWinter.jpg", typeof(Sprite));
+        Sprite onButtonSpring = Resources.Load<Sprite>("Buttons/OnButtonSpring");
+        Sprite offButtonSpring = Resources.Load<Sprite>("Buttons/OffButtonSpring");
+        Sprite onButtonSummer = Resources.Load<Sprite>("Buttons/OnButtonSummer");
+        Sprite offButtonSummer = Resources.Load<Sprite>("Buttons/OffButtonSummer.jpg");
+        Sprite onButtonFall = Resources.Load<Sprite>("Buttons/OnButtonFall");
+        Sprite offButtonFall = Resources.Load<Sprite>("Buttons/OffButtonFall");
+        Sprite onButtonWinter = Resources.Load<Sprite>("Buttons/OnButtonWinter");
+        Sprite offButtonWinter = Resources.Load<Sprite>("Buttons/OffButtonWinter");
 
         //Finding the images that use the toggles
         Image bgMusicOn = GameObject.Find("BGMusicOn").GetComponent<Image>();

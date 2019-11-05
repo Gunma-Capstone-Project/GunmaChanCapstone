@@ -1,9 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿//using System.Collections;
+//using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEditor;
-using System;
+//using System;
 
 public class ChangeColorToggle : MonoBehaviour
 {
@@ -22,7 +22,7 @@ public class ChangeColorToggle : MonoBehaviour
     //This method changes the toggles seasonally for the content under "Game Content"
     void ChangeToggleButtonsSeasonally()
     {
-
+        /*
         Sprite onButtonSpring = (Sprite)AssetDatabase.LoadAssetAtPath("Assets/Resources/Buttons/OnButtonSpring.jpg", typeof(Sprite));
         Sprite offButtonSpring = (Sprite)AssetDatabase.LoadAssetAtPath("Assets/Resources/Buttons/OffButtonSpring.jpg", typeof(Sprite));
         Sprite onButtonSummer = (Sprite)AssetDatabase.LoadAssetAtPath("Assets/Resources/Buttons/OnButtonSummer.jpg", typeof(Sprite));
@@ -31,6 +31,15 @@ public class ChangeColorToggle : MonoBehaviour
         Sprite offButtonFall = (Sprite)AssetDatabase.LoadAssetAtPath("Assets/Resources/Buttons/OffButtonFall.jpg", typeof(Sprite));
         Sprite onButtonWinter = (Sprite)AssetDatabase.LoadAssetAtPath("Assets/Resources/Buttons/OnButtonWinter.jpg", typeof(Sprite));
         Sprite offButtonWinter = (Sprite)AssetDatabase.LoadAssetAtPath("Assets/Resources/Buttons/OffButtonWinter.jpg", typeof(Sprite));
+        */
+        Sprite onButtonSpring = Resources.Load<Sprite>("Buttons/OnButtonSpring");
+        Sprite offButtonSpring = Resources.Load<Sprite>("Buttons/OffButtonSpring");
+        Sprite onButtonSummer = Resources.Load<Sprite>("Buttons/OnButtonSummer");
+        Sprite offButtonSummer = Resources.Load<Sprite>("Buttons/OffButtonSummer.jpg");
+        Sprite onButtonFall = Resources.Load<Sprite>("Buttons/OnButtonFall");
+        Sprite offButtonFall = Resources.Load<Sprite>("Buttons/OffButtonFall");
+        Sprite onButtonWinter = Resources.Load<Sprite>("Buttons/OnButtonWinter");
+        Sprite offButtonWinter = Resources.Load<Sprite>("Buttons/OffButtonWinter");
 
         int size = 7;
 
