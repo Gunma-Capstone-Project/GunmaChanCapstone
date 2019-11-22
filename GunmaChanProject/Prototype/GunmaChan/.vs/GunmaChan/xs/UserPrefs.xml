@@ -1,12 +1,7 @@
 ﻿<Properties StartupConfiguration="{FC5077E6-5EC6-2892-192C-0DBE510D2E49}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ChangeColorSeasonally.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ChangeMainMenuColors.cs">
     <Files>
-      <File FileName="Assets/Scripts/ChangeColorSeasonally.cs" Line="170" Column="50" />
-      <File FileName="Assets/Scripts/VoiceControl.cs" Line="42" Column="6" />
-      <File FileName="Assets/Scripts/ChangeSettingsBGColor.cs" Line="28" Column="60" />
-      <File FileName="Assets/Scripts/ChangeMainMenuBGColor.cs" Line="34" Column="25" />
-      <File FileName="Assets/Scripts/ChangeColorGameTimeToggles.cs" Line="41" Column="1" />
-      <File FileName="Assets/Scripts/ChangeMainMenuColors.cs" Line="38" Column="1" />
+      <File FileName="Assets/Scripts/ChangeMainMenuColors.cs" Line="39" Column="68" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,7 +9,7 @@
           <Node name="GunmaChan" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="ChangeColorSeasonally.cs" selected="True" />
+                <Node name="enemyaction.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -24,7 +19,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5177bc70-56a2-48e5-bcbe-c66e72a4ae5f" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f914ab7c-7378-43fb-97f2-b3543b8cea2b" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

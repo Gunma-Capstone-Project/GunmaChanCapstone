@@ -20,7 +20,7 @@ public class ChangeMainMenuColors : MonoBehaviour
 
     void ChangeColorMainMenu()
     {
-        int size = 4;
+        int size = 5;
         Button[] settingsMenuButtons = new Button[size];
         ColorBlock[] settingsMenuColors = new ColorBlock[size];
 
@@ -35,6 +35,9 @@ public class ChangeMainMenuColors : MonoBehaviour
 
         settingsMenuButtons[3] = GameObject.Find("SETTINGSBUTTON").GetComponent<Button>();
         settingsMenuColors[3] = settingsMenuButtons[3].colors;
+
+        settingsMenuButtons[4] = GameObject.Find("LEADERBOARDBUTTON").GetComponent<Button>();
+        settingsMenuColors[4] = settingsMenuButtons[4].colors;
 
         //Spring Colors
         Color springColorHighLightAndSelected = new Color32(255, 196, 178, 255);

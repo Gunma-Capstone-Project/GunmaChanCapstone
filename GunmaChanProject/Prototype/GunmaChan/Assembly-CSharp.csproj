@@ -63,6 +63,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\GetAndSetText.cs" />
+    <Compile Include="Assets\LeaderBoard.cs" />
     <Compile Include="Assets\Scripts\audio.cs" />
     <Compile Include="Assets\Scripts\background.cs" />
     <Compile Include="Assets\Scripts\breadaction.cs" />
@@ -75,6 +77,7 @@
     <Compile Include="Assets\Scripts\ChangeSceneMenu.cs" />
     <Compile Include="Assets\Scripts\ChangeScenesPlay.cs" />
     <Compile Include="Assets\Scripts\ChangeScenesSettings.cs" />
+    <Compile Include="Assets\Scripts\ChangeSceneToLeaderboard.cs" />
     <Compile Include="Assets\Scripts\ChangeSettingsBGColor.cs" />
     <Compile Include="Assets\Scripts\Character Logic.cs" />
     <Compile Include="Assets\Scripts\ColorChangeSounds.cs" />
