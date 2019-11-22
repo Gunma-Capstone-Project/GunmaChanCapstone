@@ -28,18 +28,18 @@ public class ChangeColorSeasonally : MonoBehaviour
         DateTime today = DateTime.Today;
 
         //Used for testing
-        today = new DateTime(2019, 3, 30);
+        //today = new DateTime(2019, 10, 30);
 
         Boolean isSummer = false, isSpring = false, isFall = false, isWinter = false;
 
         //Years aren't used, just month and day
-        DateTime spring = new DateTime(today.Year, 3, 20);
+        DateTime spring = new DateTime(2019, 3, 20);
 
-        DateTime summer = new DateTime(today.Year, 6, 21);
+        DateTime summer = new DateTime(2019, 6, 21);
 
-        DateTime fall = new DateTime(today.Year, 9, 23);
+        DateTime fall = new DateTime(2019, 9, 23);
 
-        DateTime winter = new DateTime(today.Year, 12, 21);
+        DateTime winter = new DateTime(2019, 12, 21);
 
         //Checks if today is in Spring
         if (today.Month >= spring.Month && today.Month <= summer.Month)
